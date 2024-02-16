@@ -23,7 +23,10 @@ void Screen::drawRectangle(Objects::Rectangle rectangle) {
     int x = rectangle.x;
     int x1 = rectangle.x + rectangle.width - 1;
     int y = rectangle.y;
-    int y1 = rectangle.y - rectangle.height + 1;
+    if (y < rectangle.height) {
+        y = rectangle.height + 1;
+    }
+    int y1 = y - rectangle.height + 1;
     for (int z = x; z <= x1; z++) {
         coords[(z-1) + (height - y) * width] = '#';
         coords[(z - 1) + (height - y1) * width] = '#';

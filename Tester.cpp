@@ -31,10 +31,6 @@
 0x5A	Z key
 */
 
-
-/*
-Я РЕАЛИЗОВАЛ ПЕРЕДВИЖЕНИЕ ПО ДИАГОНАЛИ И СОЗДАЛ АГАРИО
-*/
 int main() {
 	Engine myEngine;
 	std::wcout << "PRESS ANY KEY TO START";

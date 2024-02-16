@@ -23,6 +23,7 @@
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="Objects.cpp" />
     <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="AI.cpp" />
     <ClCompile Include="Tester.cpp" />
   </ItemGroup>
   <ItemGroup>
