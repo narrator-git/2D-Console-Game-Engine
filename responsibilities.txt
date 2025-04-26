@@ -1,0 +1,12 @@
+DAVUD:
+Rengler
+Menu
+
+AKBAR:
+Textbox, Triangle
+Update/Destroy other structures
+
+MEHRAB:
+AI (Optional)
+Physics
+Texture
